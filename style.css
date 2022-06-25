@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section{
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-area{
+    box-sizing: border-box;
+    width: 500px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.heading{
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: capitalize;
+
+    font-size: 1.2rem;
+}
+.line{
+    border-bottom: 3px solid rgb(56, 174, 174);
+    width: 12%;
+    margin: auto;
+    position: relative;
+    top: -10px;
+}
+.container{
+    background-color: white;
+    margin-top: 2.5rem;
+    box-shadow: 8px 7px 12px -6px rgba(0,0,0,1);
+    border-radius: 15px;
+    overflow: hidden;
+}
+.img-container{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    /* padding-left: 65px; */
+    position: relative;
+}
+.img-1,.img-2{
+    border-radius: 100%;
+}
+.img-1{
+    z-index: 2;
+}
+.img-2{
+    /* z-index: 2; */
+    position: absolute;
+    left: auto;
+    padding-left: 10px;
+}
+.name{
+    text-align: center;
+    color: rgb(56, 174, 174);
+    font-size: 1.5rem;
+}
+.position{
+    text-align: center;
+    margin-bottom: 0.2rem;
+    color: rgb(56, 174, 174);
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.job-text{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    font-style: italic;
+    text-align: center;
+}
+.arrow{
+    min-height: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.prev-btn,.next-btn{
+
+    border: none;
+    background:transparent;
+    color: rgb(56, 174, 174);
+    font-size: 1.2rem;
+}
+.prev-btn,.next-btn:hover{
+    cursor: pointer;
+}
+.bottom{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.bottm-text{
+    margin: auto;
+    border: 2px solid rgb(56, 174, 174);
+    width: 100px;
+    border-radius: 2rem;
+}
+.bottm-text:hover{
+    background-color: rgb(56, 174, 174);
+    cursor:pointer;
+}
